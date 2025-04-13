@@ -1,0 +1,1 @@
+function switchLang(lang) { document.querySelectorAll('[lang]').forEach(e => e.style.display = e.lang === lang ? '' : 'none'); }
